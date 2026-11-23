@@ -1,0 +1,12 @@
+# Environment & Secrets
+.env
+.streamlit/secrets.toml
+
+# Python virtual environment & cache
+venv/
+__pycache__/
+*.pyc
+
+# Vector store index files generated at runtime
+vector_store/faiss_index.bin
+vector_store/chunks.pkl
